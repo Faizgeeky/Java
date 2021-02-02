@@ -3,7 +3,7 @@ class a extends Thread{
 
   public void run(){
     for(int i=0;i<5;i++){
-        System.out.println("HI");
+        System.out.println("HI i am thread a");
         try {
           Thread.sleep(1000);
         }catch (Exception e) {
@@ -16,7 +16,7 @@ class b extends Thread{
 
   public void run(){
     for(int i=0;i<5;i++){
-        System.out.println("HELLO");
+        System.out.println("HELLO i am thread b");
         try {
           Thread.sleep(1000);
         }catch (Exception e) {
@@ -26,7 +26,7 @@ class b extends Thread{
   }
 }
 
-class Thread1{
+class pg21{
 
   public static void main(String[] args) {
     System.out.println("In main");
